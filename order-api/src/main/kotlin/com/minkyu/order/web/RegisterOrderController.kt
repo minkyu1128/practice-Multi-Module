@@ -51,7 +51,7 @@ data class RequetOrderItem(
 ) {
     fun toOrderItem() = OrderItem(
         orderItemName = name,
-        amount = amount,
+        quantity = amount,
         price = Price.of(price)
     )
 }
