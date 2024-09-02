@@ -1,4 +1,4 @@
-package com.minkyu.order
+package com.minkyu.order.application
 
 import com.minkyu.order.domain.Order
 import com.minkyu.order.port.`in`.RegistOrderUserCase
